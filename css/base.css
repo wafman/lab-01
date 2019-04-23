@@ -1,0 +1,27 @@
+/* all base styling */
+
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body {
+  background-color: rgb(94, 88, 88);
+  width: 960px;
+  border: 1px solid orange;
+}
+
+header {
+  color: orange;
+  margin: 10px auto;
+  text-align: center;
+}
+
+main {
+  margin: 10px auto;
+}
+
+footer {
+  clear: both;
+  margin: 10px auto;
+  text-align: center;
+}
