@@ -1,27 +1,17 @@
-/* all base styling */
-
-* {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
+/* reusable and modular parts of the code */
 body {
-  background-color: rgb(94, 88, 88);
+  background-color: orange;
   width: 960px;
-  border: 1px solid orange;
 }
 
 header {
-  color: orange;
-  margin: 10px auto;
+  /* border: 1px solid black; */
+  margin: 0px auto;
   text-align: center;
+  background-color: aliceblue;
 }
 
-main {
-  margin: 10px auto;
+section {
+  width: 960px;
 }
 
-footer {
-  clear: both;
-  margin: 10px auto;
-  text-align: center;
-}
