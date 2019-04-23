@@ -11,7 +11,20 @@ header {
   background-color: aliceblue;
 }
 
+main {
+  /* margin: 0px auto; */
+  /* border: 1px solid black; */
+}
+
 section {
+  /* margin: 0px auto; */
+  /* border: 1px solid green; */
   width: 960px;
 }
 
+/* vertical height code inspired from http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+/* h1, h2, h3, h4, h5 {
+  position: relative; 
+  top: 50%;
+  transform: translateY(-50%)
+} */
