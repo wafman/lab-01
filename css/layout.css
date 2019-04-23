@@ -1,3 +1,11 @@
+
+.smallBox {
+  width: 480px;
+  height: 500px;
+  margin: 0px auto;
+  /* border: 1px solid black; */
+}
+
 h1 {
   text-align: center;
   margin: 0px auto;
@@ -58,66 +66,77 @@ h5 {
 
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
-  .smallBox {
-    display: inline-block;
-    /* float: left; */
-  }
 
   header {
     width: 480px;
     height: 75px;
+    line-height: 75px;
   }
   
   .b {
     width: 480px;
     height: 150px;
+    line-height: 150px;
   }
 
   .c {
     width: 480px; 
     height: 125px;
+    line-height: 125px;
   }
 
   .d {
     width: 480px;
     height: 125px;
+    line-height: 125px;
   }
 
   .e {
     width: 240px;
     height: 250px;
-    /* display: inline-block; */
+    display: inline-block;
     float: left;
+    /* float: left; */
   }
 
   .f {
     width: 240px;
     height: 250px;
-    /* display: inline-block; */
-    float: right;
+    display: inline-block;
+    float: left;
+    /* float: right; */
   }
 
   .g {
     clear: both;
     width: 240px;
     height: 250px;
+    display: inline-block;
     float: left;
+    /* float: right; */
   }
 
   .h {
     width: 240px;
     height: 250px;
-    float: right;
+    display: inline-block;
+    float: left;
+    /* float: right; */
   }
 
   h5 {
     clear: both;
     width: 480px;
     height: 80px;
+    line-height: 80px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 960px){
+
+  .smallBox {
+    display: inline;
+  }
   header {
     width: 960px;
     height: 100px;
@@ -155,22 +174,26 @@ h5 {
 
   .e {
     background-color: violet;
+    /* float: left; */
   }
 
   .f {
     background-color: turquoise;
+    /* float: left; */
   }
 
   .g {
     background-color: tomato;
+    /* float: left; */
   }
 
   .h {
     background-color: thistle;
+    /* float: left; */
   }
 
   h5 {
-    clear: left;
+    /* clear: left; */
     width: 760px;
     height: 150px;
     float: right;
