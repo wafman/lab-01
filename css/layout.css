@@ -11,25 +11,22 @@ h1 {
 }
 
 h2 {
-  /* border: 1px solid black; */
   text-align: center;
   margin: 0px auto;
 }
 
 h3 {
-  /* border: 1px solid black; */
   text-align: center;
   margin: 0px auto;
 }
 
 h4 {
-  /* border: 1px solid black; */
+
   text-align: center;
   margin: 0px auto;
 }
 
 h5 {
-  /* border: 1px solid black; */
   margin: 0px auto;
   text-align: center;
   background-color: burlywood;
@@ -95,7 +92,6 @@ h5 {
     height: 250px;
     display: inline-block;
     float: left;
-    /* float: left; */
   }
 
   .f {
@@ -103,7 +99,6 @@ h5 {
     height: 250px;
     display: inline-block;
     float: left;
-    /* float: right; */
   }
 
   .g {
@@ -112,7 +107,6 @@ h5 {
     height: 250px;
     display: inline-block;
     float: left;
-    /* float: right; */
   }
 
   .h {
@@ -120,7 +114,6 @@ h5 {
     height: 250px;
     display: inline-block;
     float: left;
-    /* float: right; */
   }
 
   h5 {
@@ -184,26 +177,21 @@ h5 {
 
   .e {
     background-color: violet;
-    /* float: left; */
   }
 
   .f {
     background-color: turquoise;
-    /* float: left; */
   }
 
   .g {
     background-color: tomato;
-    /* float: left; */
   }
 
   .h {
     background-color: thistle;
-    /* float: left; */
   }
 
   h5 {
-    /* clear: left; */
     width: 760px;
     height: 150px;
     line-height: 150px;
